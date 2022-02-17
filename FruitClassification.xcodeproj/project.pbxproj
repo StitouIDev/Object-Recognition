@@ -12,6 +12,7 @@
 		BB18F8B027BAF2190062EE38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB18F8AE27BAF2190062EE38 /* Main.storyboard */; };
 		BB18F8B227BAF21B0062EE38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB18F8B127BAF21B0062EE38 /* Assets.xcassets */; };
 		BB18F8B527BAF21B0062EE38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB18F8B327BAF21B0062EE38 /* LaunchScreen.storyboard */; };
+		BBFAFFA827BB99FA00439F1B /* FruitClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BBFAFFA727BB99FA00439F1B /* FruitClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BB18F8B127BAF21B0062EE38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB18F8B427BAF21B0062EE38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB18F8B627BAF21B0062EE38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBFAFFA727BB99FA00439F1B /* FruitClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FruitClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		BB18F8A927BAF2190062EE38 /* FruitClassification */ = {
 			isa = PBXGroup;
 			children = (
+				BBFAFFA727BB99FA00439F1B /* FruitClassifier.mlmodel */,
 				BB18F8AA27BAF2190062EE38 /* AppDelegate.swift */,
 				BB18F8AC27BAF2190062EE38 /* ViewController.swift */,
 				BB18F8AE27BAF2190062EE38 /* Main.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBFAFFA827BB99FA00439F1B /* FruitClassifier.mlmodel in Sources */,
 				BB18F8AD27BAF2190062EE38 /* ViewController.swift in Sources */,
 				BB18F8AB27BAF2190062EE38 /* AppDelegate.swift in Sources */,
 			);
@@ -283,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JFHHNB7B7S;
 				INFOPLIST_FILE = FruitClassification/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JFHHNB7B7S;
 				INFOPLIST_FILE = FruitClassification/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
